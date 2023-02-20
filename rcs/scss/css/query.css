@@ -1,0 +1,1925 @@
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width:320px) and (max-width: 575.98px) {
+    /*======== HOME PAGE RWD START ========*/  
+    #hero{
+        background:#000;
+        width: 100%;
+    }
+    #hero .logo{
+        width: 35%;
+        margin-left: 0;
+    }
+    #hero .logo img{
+        width: 100%;
+    }
+    #hero .nav-toggle{
+        display:block;
+    }
+    #hero .main_nav{
+        width: 100%;
+        max-height:0;
+        overflow: hidden;
+        visibility: hidden;
+        padding:0;
+        transition: all 0.5s ease;
+    }
+    #hero .main_nav.open{
+        width: 100%;
+        max-height:0;
+        padding:0;
+        transition: all 0.5s ease;
+        visibility: visible;
+    
+    }
+    #hero .main_nav ul{
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    #hero .main_nav ul li{
+        display: block;
+        margin:0;
+    }
+    #hero .main_nav .srvc-list:hover .srvc_drop{
+     background: #f6c60d; 
+    }
+    #hero .main_nav .srvc-list:hover .srvc_drop li a{
+        color: #000;
+    }
+    #hero .main_nav ul li a{
+        color: #fff;
+    }
+    #hero .header_btn{
+        display: none;
+    }
+
+ .bnr{
+   width: 100%;
+   padding:0;
+ }
+.bnr .bnr-ctn .link::after{
+    display: none;
+  }
+#about{
+ width:100%;
+ padding: 0 10px;
+}
+#about .about_cnt{
+width:100%;
+}
+#blog_about{
+    width: 100%;
+}
+#blog_about{
+    padding: 0 10px;
+}
+#blog_about .blog_one{
+    margin: 15px 0;
+} 
+#service{
+width: 100%;
+box-sizing: border-box;
+}
+#service .service_img{
+    width: 100%;
+}
+#service .service_blog{
+    width: 100%;
+    margin: auto;
+}
+#service .service_blog .srvc_border_blog::before{
+margin-top: 40px;
+}
+#service .service_blog h6{
+padding-top: 39px;
+
+}
+#service .service_blog .srvc_blog_slider{
+    box-sizing: border-box;
+}
+#srvc-logo{
+    width: 100%;
+}
+#srvc-logo .srvc-btn{
+    width: 100%;
+}
+#srvc-logo .srvc-btn .srvc-logo-btn{
+    margin-left: 1.7rem;;
+    width: 56%;
+}
+#srvc-logo .srvc-logo-part{
+   padding: 0 10px;
+} 
+
+#srvc-logo .srvc-logo-part .net-mktg{
+    padding:10px 0;
+    margin: 10px 0;
+}
+#srvc-logo .srvc-logo-part .net-mktg::before{
+    top: 3px;
+    left:0;
+    width:80px;
+    height:80px;
+}
+#srvc-logo .srvc-logo-part .net-mktg img{
+    top:19px;
+    left:9px;
+}
+
+#srvc-logo .srvc-logo-part .google-ads{
+    padding:10px 0;
+    margin: 20px 0;
+}
+#srvc-logo .srvc-logo-part .google-ads::before{
+    top: 3px;
+    left:0;
+    width:80px;
+    height:80px;
+}
+#srvc-logo .srvc-logo-part .google-ads img{
+    top:19px;
+    left:9px;
+}
+#srvc-logo .srvc-logo-part .s-media{
+    padding:10px 0;
+    margin: 20px 0;
+}
+#srvc-logo .srvc-logo-part .s-media::before{
+    top: 3px;
+    left:0;
+    width:80px;
+    height:80px;
+}
+#srvc-logo .srvc-logo-part .s-media img{
+    top:19px;
+    left:9px;
+}
+#srvc-logo .srvc-logo-part .seo{
+    padding:10px 0;
+    margin: 20px 0;
+}
+#srvc-logo .srvc-logo-part .seo::before{
+    top: 3px;
+    left:0;
+    width:80px;
+    height:80px;
+}
+#srvc-logo .srvc-logo-part .seo img{
+    top:19px;
+    left:9px;
+}
+#gl-commm{
+   display: none;
+}
+#team{
+    width: 100%;
+    padding:0 20px;
+}
+#team-member .pers-1 .social-icon{
+    display: none;
+}
+#cust{
+    width: 100%;
+}
+#cust .cust-ctn-slider h2{
+    top:56px;
+    left:40px;
+    font-size: 20px;
+}
+#cust .cust-ctn-slider span i{
+    font-size: 100px;
+}
+#cust .cust_slide{
+    width: 100%;
+}
+#cust .cust_slide p{
+    font-size: 15px;
+}
+#cust .cust_slide .slide-item1{
+ margin-left: 0;
+}
+#cust .cust_slide .slide-item1 .sales{
+    bottom:15px;
+    left:5px;
+    font-size: 15px;
+} 
+#cust .cust_slide .slide-item1 h3{
+    font-size: 18px;
+}
+#cust .cust_slide .slide-item2{
+    margin-left: 0;
+}
+#cust .cust_slide .slide-item2 .financial{
+    bottom:15px;
+    left:5px;
+    font-size: 15px;
+} 
+#cust .cust_slide .slide-item2 h3{
+    font-size: 18px;
+}
+#cust .cust_slide .slide-item3{
+    margin-left: 0;
+}
+#cust .cust_slide .slide-item3 .accounts{
+    bottom:15px;
+    left:5px;
+    font-size: 15px;
+} 
+#cust .cust_slide .slide-item3 h3{
+    font-size: 18px;
+}
+#cust .cust_slide .slick-dots li button{
+    margin-left: 0;
+}
+#invt{
+    width: 100%;
+}
+#invt .invt-pricing{
+    padding: 40px 10px;
+} 
+
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h4{
+    font-size: 11px;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h3{
+font-size: 18px;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price::after{
+ top: 11rem;
+}
+#invt .invt-overlay .invt-pricing .price-btn{
+    width: 50%;
+    margin-left:50px;
+    margin-bottom: 40px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h4{
+    font-size: 11px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h3{
+font-size: 18px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price::after{
+ top: 11rem;
+}
+#invt .invt-overlay .invt-pricing .price-2-btn{
+    width: 50%;
+    margin-left:50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#main-blog{
+    width: 100%;
+}
+#member-blog{
+    width:100%;
+}
+#main-blog .blog-ctn .blog-icon .blog-icon-1{
+    padding-bottom: 50px;
+}
+#member-blog .blog-item1{
+    margin-bottom: 8rem;
+}
+#member-blog .blog-item1 .blog-btn .blog-btn-title a{
+ top: 12rem;
+ left: 10rem;
+ width: 37%;
+}
+#member-blog .blog-item1 .blog-item-ctn .blog-border{
+ display:none;
+}
+#footer{
+    width: 100%;
+}
+#footer-text{
+    width: 100%;
+}
+#footer-text .copy-border::before{
+width:75%;
+left: 45px;
+text-align: center;
+}
+
+/*======== HOME PAGE RWD ENDS ========*/  
+/*======== ABOUT PAGE RWD START ========*/
+#about-srvc{
+ width: 100%;
+}
+#company-logo{
+  width:100%;
+}
+#company-logo .company-slider .slider-item-1{
+ width: 60px;
+ height: 60px;
+ box-sizing: border-box;
+}
+#company-logo .company-slider .slick-dots{
+    width:100%;
+}
+#company-logo .company-slider .slick-dots li button::before{
+    top: 25px;
+    left: -1rem;
+}
+#company-logo .company-slider .slick-dots li.slick-active button::before{
+    top: 17px;
+    left: -9px;
+}
+#company-logo .company-slider .slick-dots li button::after{
+    top: 25px;
+    left: 47px;
+}
+#about-mission{
+    width: 100%;
+}
+#about-mission .mission-ctn {
+   width: 100%;
+   margin-left:5px;
+}
+#about-mission .mission-quotation{
+    width: 100%;
+}
+#about-mission .mission-quotation p{
+    font-size:17px;
+}
+#about-mission::before{
+    display: none;
+}
+#about-blog{
+    padding: 0 5px;
+    width: 100%;
+}
+#about-blog .blog1{
+    width: 100%;
+}
+#about-blog .blog3{
+    width: 100%;
+}
+#about-blog .blog3 .client::before{
+    width: 18rem;
+}
+#about-blog .blog3 .client::after{
+    display: none;
+}
+#about-blog .blog3 .result::before {
+ width: 13rem;
+}
+#about-blog .blog3 .result::after{
+    display: none;
+}
+#about-blog .blog3 .project::before{
+    width: 14rem;
+ }
+#about-blog .blog3 .project::after{
+ display: none;
+}
+#about-blog .blog3 .solving::after{
+ display: none;
+}
+#about-blog .blog3 .solving::before{
+   width: 17rem;
+   }
+#about-blog .blog3 .teamwork::before{
+    width: 18rem;
+ }
+#about-blog .blog3 .teamwork::after{
+   display: none;
+}
+#about-blog .blog3 img{
+    width: 100%;
+}
+#about-get-in-touch{
+    width: 100%;
+}
+#about-get-in-touch .about-contact{
+    width: 100%;
+    margin: 0 0 20px 5px;
+} 
+#about-get-in-touch .conatct-us-info{
+    width: 100%;
+}
+#about-get-in-touch .conatct-us-info .address{
+  margin-bottom: 50px;
+  margin-left: 4.5rem;
+  width: 50%;
+}
+#about-get-in-touch::before{
+    display: none;
+}
+#google-map{
+    width: 100%;
+}
+#google-map .map-search iframe {
+    width: 100%;
+}
+#google-map .contact-from{
+    width: 100%;
+}
+#google-map .contact-from .contact-btn{
+    width: 45%;
+    font-size: 10px;
+    padding: 15px 10px;
+}
+
+#footer{
+    width: 100%;
+}
+#footer-text{
+    width: 100%;
+}
+#footer-text .copy-border::before{
+width:75%;
+left: 45px;
+text-align: center;
+}
+
+/*======== ABOUT PAGE RWD ENDS ========*/
+/*======== SERVICE PAGE RWD START ========*/
+#srvc-advtg{
+    width: 100%;
+}
+#srvc-advtg .srvc-member {
+    width: 100%;
+}
+#srvc-advtg .srvc-member .srvc-member1{
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+#srvc-advtg .srvc-member .srvc-btn .srvc-btn-title a{
+ position: absolute;
+ top: 9.5rem;
+ left: 10rem;
+ padding:7px;
+ font-size: 13px;
+ text-align: center;
+}
+#srvc-advtg .srvc-member .srvc-item-btn .srvc-border{
+bottom: -10rem;
+}
+#srvc-blog{
+    width: 100%;
+}
+#srvc-blog .blog-ctn{
+    width: 100%;
+}
+#srvc-blog .blog-ctn .blog-border{
+    width: 100%;
+}
+#srvc-blog .blog-ctn .srvc-icon{
+    display:none;
+}
+
+#company-logo{
+    display: none;
+}
+#srvc-invt{
+    width: 100%;
+}
+#srvc-invt .invt-pricing .invt-1st-price::after {
+	bottom: 10.8rem;
+}
+#srvc-invt .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 18px;
+}
+#srvc-invt .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 18px;
+}
+#srvc-invt .invt-pricing .price-btn {
+    margin:15px 90px 10px 50px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
+#srvc-invt .invt-pricing .price-2-btn {
+    margin:25px 130px 0 0;
+}
+#srvc-invt .invt-pricing .invt-2nd-price::after{
+    bottom: 12rem;
+    height: 1px;
+}
+#srvc-invt .invt-pricing .price-2-btn {
+    margin:15px 90px 10px 50px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
+/*======== SERVICE PAGE RWD ENDS ========*/
+
+/*======== TEAM PAGE RWD START ========*/
+
+#about-bnr{
+ width: 100%;
+}
+#about-bnr .about-headline{
+    margin-top: 0;
+    padding: 0 10px;
+}
+#about-bnr .about-headline .team-btn {
+    width: 50%;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+#testimonial{
+    width: 100%;
+}
+#testimonial .testi-ctn p{
+    width: 100%;
+    text-align: left;
+}
+#testimonial .testi-client{
+    width: 100%;
+    box-sizing: border-box;
+}
+#testimonial .testi-client .client1{
+    width: 100%;
+}
+/*======== TEAM PAGE RWD ENDS ========*/
+/*======== INVESTMENT PAGE RWD START ========*/
+#invest-bnr{
+    width: 100%;
+}
+#invest-bnr .invest-headline {
+    margin-top: -2rem;
+}
+#invest-bnr .invest-headline .invest-btn-item .team-btn{
+    display: none; 
+}
+#invest-bnr .invest-headline .invest-btn-item .youtube-btn {
+	width: 50%;
+}
+#count-area{
+    width: 100%;
+}
+#count-area .count1{
+ margin: 20px 0;
+}
+#count-area .count1 .count-icon {
+	margin-left: 7rem;
+}
+#investor{
+    width: 100%;
+}
+#investor .person-investor .person1{
+    margin: 10px 0;
+}
+/*======== INVESTMENT PAGE RWD ENDS ========*/
+/*======== BLOG PAGE RWD START ========*/
+#blog-page{
+    width: 100%;
+}
+#blog-page .blog-heading{
+    margin-top:0;
+}
+#blog-page .blog-heading h3{
+    text-align: center;
+    margin-left:0;
+}
+#blog-page .blog-heading span {
+   display: none;
+    
+}
+#blog-section{
+    width: 100%;
+}
+#blog-section .left-blog-img{
+ width: 100%;
+}
+#blog-section .left-blog-img::before{
+    width: 100%;
+}
+#blog-section .left-blog-ctn{
+    width: 100%;
+}
+#blog-section .recent-post{
+    margin-bottom: 3rem;
+    width: 100%;
+}
+#blog2-section .left-blog2-img{
+    margin-top:2rem;
+    margin-bottom: 4rem;
+}
+#blog2-section .left-blog-ctn{
+    padding: 10px 0;
+    margin-bottom: 1rem;
+}
+#blog2-section{
+    width: 100%;
+}
+#blog3-section{
+   width: 100%;
+}
+#blog3-section::before{
+    display: none;
+}
+#blog3-section .blog3-left-img{
+  width: 100%;
+}
+#blog3-section .blog3-left-img img{
+ width: 100%;
+ height: 100%;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .quote-right{
+    top: 0;
+    left: 8rem;
+    font-size: 30px;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay h2{
+ font-size: 20px;
+ margin-top: 4rem;
+}
+
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border::before {
+    display: none;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border {
+   display: none;
+}
+
+/*======== BLOG PAGE RWD ENDS ========*/
+/*======== CONTACT PAGE RWD START ========*/
+#contact-banner{
+  width: 100%;
+}
+#contact-banner .contact-heading{
+ margin-top: 0;
+}
+#contact-get-in-touch .about-contact{
+    margin-bottom: 30px;
+}
+#contact-get-in-touch .conatct-us-info .address{
+    margin: 20px;
+}
+#contact-get-in-touch::before{
+    display:none;
+}
+#contact-get-in-touch .conatct-us-info .address::before {
+	top: 0;
+	left: 5.2rem;
+}
+#contact-get-in-touch .conatct-us-info .address img {
+    left: 6.5rem;
+}
+#contact-google-map .contact-from {
+    width: 100%;
+    top:8rem;
+    right:0;
+    background: #181818;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+#contact-google-map .contact-from .contact-btn {
+	width: 50%;
+    text-align: center;
+	padding:10px 15px;
+	margin: 20px 0 0 0;
+}
+#g-map{
+    width: 100%;
+}
+#g-map iframe{
+    width: 100%;
+}
+/*======== CONTACT PAGE RWD ENDS ========*/
+/*======== OUR_SRVC SUBMENU RWD START ========*/
+#our-srvc{
+ width: 100%;
+ background: red;
+}
+#our-srvc .our-srvc-headline{
+    margin-top: 20px;
+}
+#expl-bus{
+    background: #2a84a8;
+    width: 100%;
+}
+#expl-bus .flip-container {
+    width: 300px;
+  }
+#expl-bus .flip-container .flip-card{
+    width: 100%;
+}
+/*======== OUR_SRVC SUBMENU RWD ENDS ========*/
+/*======== SINGLE SERVICE SUBMENU RWD START ========*/
+#srvc-blog{
+    width: 100%;
+}
+#srvc-blog img{
+    width: 50%;
+}
+#srvc-blog .blog-ctn{
+    width: 100%;
+    height: 100%;;
+}
+#srvc-blog .blog-ctn .srvc-icon{
+    display: none;
+}
+.circular::before{
+ display: none;
+}
+.circular{
+    width: 100%;
+}
+
+.circular .progress-circle1 .clock{
+    width: 100%;
+}
+.circular .progress-circle1 .clock img{
+    width: 18%;
+    top:23px;
+    left: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.circular .progress-circle2{
+    width: 100%;
+}
+.circular .progress-circle2 .calculator img{
+    width: 14%;
+    top:34px;
+    left: 55px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.circular .progress-circle3{
+    width: 100%;
+}
+.circular .progress-circle3 .calculator img{
+    width: 14%;
+    top:34px;
+    left: 55px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.circular .progress-circle4{
+    width: 100%;
+}
+.circular .progress-circle4 .calculator img{
+    width: 14%;
+    top:34px;
+    left: 37px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#solution{
+    width:100%;
+}
+#real-solution .title h2 {
+    padding-top: 2rem;
+}
+#solution .mission-quotation p{
+    font-size: 20px;
+}
+#solution::before{
+display: none;
+}
+#real-solution{
+    display: none;
+}
+#real-solution .multiple-items{
+    width: 100%;
+    margin-left: 0;
+}
+#real-solution .real-slider .real-ctn1 h4 {
+    font-size:20px;
+  }
+#real-solution .real-slider .real-icon1{
+  margin-left: 0;
+}
+#srvc-invt .invt-pricing .price-btn {
+	margin: 15px 90px 50px 50px;
+}
+#srvc-invt .invt-pricing .price-2-btn {
+	margin: 15px 90px 50px 50px;
+}
+#srvc-invt .invt-pricing .price-3-btn {
+	margin: 15px 90px 50px 50px;
+}
+ #bus{
+    width: 100%;
+ }
+ #bus .bus-ctn{
+    width: 100%;
+ }
+ #bus .social-icon{
+    width: 90%;
+ }
+ #bus .bus-ctn .social-icon2 hr {
+	display:none;
+}
+#bus .bus-ctn .social-icon2 .social-btn .find-btn{
+   display: none;
+}
+#bus .bus-ctn .social-icon2 .social-btn .srvc-btn {
+	width: 50%;
+}
+#bus .bus-ctn .social-icon2 .social-btn .srvc-btn a {
+	padding: 0;
+    text-align: center; 
+}
+
+/*======== SINGLE SERVICE SUBMENU RWD ENDS ========*/
+}
+
+/* //Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+  /*======== HOME PAGE RWD START ========*/ 
+#hero{
+    background:#000;
+    width: 100%;
+}
+#hero .logo{
+    width: 35%;
+    margin-left: 0;
+}
+#hero .logo img{
+    width: 100%;
+}
+#hero .nav-toggle{
+    display:block;
+}
+#hero .main_nav{
+    width: 100%;
+    max-height:0;
+    overflow: hidden;
+    visibility: hidden;
+    padding:0;
+    transition: all 0.5s ease;
+}
+#hero .main_nav.open{
+    width: 100%;
+    max-height:0;
+    padding:0;
+    transition: all 0.5s ease;
+    visibility: visible;
+
+}
+#hero .main_nav ul{
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+#hero .main_nav ul li{
+    display: block;
+    margin:0;
+}
+#hero .main_nav .srvc-list:hover .srvc_drop{
+ background: #f6c60d; 
+}
+#hero .main_nav .srvc-list:hover .srvc_drop li a{
+    color: #000;
+}
+#hero .main_nav ul li a{
+    color: #fff;
+}
+#hero .header_btn{
+    display: none;
+}
+#hero .nav-toggle {
+	top: 37px;
+	right: 50px;
+}
+
+.bnr{
+    width: 100%;
+    padding:0;
+  }
+.bnr .bnr-ctn .link::after {
+	display: block;
+	content: "";
+	width: 60%;
+	height: 2px;
+	background: #00aaef;
+	margin-top: -10px;
+	margin-left: 27%;
+	margin-bottom: 0.35rem;
+	transition: all 500ms ease;
+}
+   #srvc-logo .srvc-logo-part .net-mktg, #srvc-logo .srvc-logo-part .google-ads, #srvc-logo .srvc-logo-part .s-media, #srvc-logo .srvc-logo-part .seo {
+	padding: 30px 20px;
+	margin: 20px 1.6rem;
+	position: relative;
+}
+#gl-commm{
+    width: 100%;
+    padding: 2rem;
+}
+#gl-commm .gl-title{
+    margin: -30px 0 20px 0;
+}
+#gl-commm .gl-commission{
+    width: 100%;
+    height: 100%;
+    margin-top:0;
+    padding: 20px 0;
+}
+#gl-commm .gl-commission .gl-ctn h1{
+    margin-top:0;
+}
+#team-member{
+ width: 100%;
+}
+#team-member .pers-1 .img-overlay:hover .social-icon{
+ top: 9rem;
+ left: 10rem;
+}
+#main-blog .blog-ctn .blog-icon {
+    margin-bottom: 20px;
+}
+#main-blog .blog-ctn .blog-icon .blog-icon-1 {
+   margin-top:1rem;
+	padding-bottom:0;
+}
+#footer{
+    width: 100%;
+    padding: 7rem 0 1.5rem 0;
+}
+#footer-text{
+    width: 100%;
+}
+#footer-text .copy-border::before{
+width:75%;
+left: 45px;
+text-align: center;
+}
+#footer-text .copy-border::before {
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: 9rem;
+	width: 61%;
+	height: 1px;
+	background: #f0f0f0;
+	margin: auto;
+}
+ /*======== HOME PAGE RWD ENDS ========*/  
+ /*======== ABOUT PAGE RWD ENDS ========*/  
+#about-blog{
+    width:100%;
+}
+#about-blog .blog3 .client::after {
+    left:21rem;
+}
+#about-blog .blog3 .result::after {
+    left:21rem;
+}
+#about-blog .blog3 .project::after {
+    left:20rem;
+}
+#about-blog .blog3 .solving::after {
+    left:20rem;
+}
+#about-blog .blog3 .teamwork::after {
+    left:21rem;
+}
+#about-mission::before {
+   display: none;
+}
+#about-get-in-touch{
+    width: 100%;
+}
+#about-get-in-touch .conatct-us-info .address{
+    margin: 20px;
+}
+#about-get-in-touch .conatct-us-info .address::before {
+	left: 13rem;
+}
+#about-get-in-touch .conatct-us-info .address img {
+    left:14.5rem;
+}
+#about-get-in-touch::before {
+  display: none;
+}
+
+/*======== ABOUT PAGE RWD ENDS ========*/ 
+/*======== SERVICE PAGE RWD START ========*/ 
+#srvc-blog{
+    padding: 2rem 0;
+}
+#srvc-blog .blog-ctn .blog-border {
+	margin-top:0;
+	position: relative;
+}
+#srvc-blog .blog-ctn {
+    height:16rem;
+    margin-top:10rem;
+}
+#srvc-blog .blog-img {
+	height: 55vh;
+	margin-top: 0.87rem;
+	margin-right: 2rem;
+}
+#srvc-blog .blog-ctn .srvc-icon .srvc-icon1 {
+    display: none;
+}
+/*======== SERVICE PAGE RWD ENDS ========*/ 
+/*======== TEAM PAGE RWD START ========*/ 
+#about-bnr .about-headline .team-btn {
+	width: 25%;
+}
+#main-blog .blog-ctn .blog-icon .blog-icon-1 p {
+	margin-bottom: 5.5rem;
+}
+/*======== TEAM PAGE RWD ENDS ========*/ 
+/*======== INVESTMENT PAGE RWD START ========*/ 
+#invest-bnr .invest-headline .invest-btn-item .team-btn {
+	width: 25%;
+	background: #e49f37;
+    width: 30%;
+    height: 30%;  
+}
+#invest-bnr .invest-headline .invest-btn-item .youtube-btn {
+    width: 30%;
+    height: 30%;  
+}
+#count-area .count1 .count-icon {
+	margin-left: 14rem;
+}
+#count-area .count1 {
+    margin-bottom: 30px;
+}
+/*======== INVESTMENT PAGE RWD ENDS ========*/ 
+/*======== BLOG PAGE RWD START ========*/ 
+#blog-page .blog-heading span {
+	left: 3rem;
+}
+#blog-section .left-blog-img::before {
+    width: 90%;
+}
+#blog2-section .left-blog-ctn{
+    margin-top: -1rem;
+}
+#blog2-section .left-blog2-img {
+    margin: 1rem 0 3rem 0;
+}
+#blog3-section::before {
+display: none;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .quote-right {
+	position: absolute;
+	top: 0;
+	left: 3rem;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay h2 {
+    font-size:25px;
+	margin-top: 9rem;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border::before {
+	top: 0;
+	left: 14rem;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border {
+	text-align: center;
+}
+/*======== BLOG PAGE RWD ENDS ========*/ 
+/*======== CONTACT PAGE RWD ENDS ========*/
+#contact-get-in-touch .conatct-us-info .address{
+    margin-bottom: 2rem;
+}
+#contact-get-in-touch .conatct-us-info .address::before {
+    left: 13rem;
+}
+#contact-get-in-touch .conatct-us-info .address img {
+	left: 14.4rem;
+}
+#contact-get-in-touch::before {
+    width: 90%;
+	left: 1.9rem;
+}
+
+/*======== CONTACT PAGE RWD ENDS ========*/ 
+/*==SERVICE SUB MENU SINGLE SERVICE  PAGE RWD START==*/ 
+
+.circular::before {
+    left: 4rem;
+    width: 80%;
+}
+.circular .progress-circle1 .clock img {
+	top: 34px;
+	left: 50px;
+	width: 15%;
+}
+.progress-circle2 .calculator img {
+    top: 37px;
+	left: 59px;
+	width: 15%;
+}
+.progress-circle3 .calculator img {
+	top: 34px;
+	left: 50px;
+	width: 15%;
+}
+.progress-circle4 .calculator img {
+    top: 36px;
+	left: 37px;
+	width: 15%;
+}
+/*==SERVICE SUB MENU SINGLE SERVICE  PAGE RWD ENDS==*/ 
+/*==SERVICE SUB MENU SOLUTION PAGE RWD START==*/ 
+
+#solution::before {
+    left:4.5rem;
+    width: 80%;
+}
+/*== OUR PROCESS SOLUTION PAGE RWD ENDS
+==*/ 
+
+ }
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+
+@media (min-width: 768px) and (max-width:991.98px){
+
+/* === HEADER PAGE RWD START ===*/
+    #hero{
+        background:#000;
+        width: 100%;
+    }
+    #hero .logo{
+        width: 100%;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    #hero .logo img{
+        width: 100%;
+        margin-left: 0;
+    }
+    #hero .nav-toggle{
+        display:block;
+    }
+    #hero .main_nav{
+        width: 100%;
+        max-height:0;
+        overflow: hidden;
+        visibility: hidden;
+        padding:0;
+        transition: all 0.5s ease;
+    }
+    #hero .main_nav.open{
+        width: 100%;
+        max-height:0;
+        padding:0;
+        transition: all 0.5s ease;
+        visibility: visible;
+    
+    }
+    #hero .main_nav ul{
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    #hero .main_nav ul li{
+        display: block;
+        margin:0;
+    }
+    #hero .main_nav .srvc-list:hover .srvc_drop{
+     background: #f6c60d; 
+    }
+    #hero .main_nav .srvc-list:hover .srvc_drop li a{
+        color: #000;
+    }
+    #hero .main_nav ul li a{
+        color: #fff;
+    }
+    #hero .header_btn{
+        display: none;
+    }
+    #hero .nav-toggle {
+        top: 21px;
+        right: 50px;
+    } 
+    .bnr .bnr-ctn .link::after {
+        width: 60%;
+        margin-left: 21%;
+       
+    }
+    #srvc-logo .srvc-btn .srvc-logo-btn {
+        width: 80%;
+        height:80%;
+        margin-left: 3rem;
+    }
+
+    #srvc-logo .srvc-logo-part .net-mktg .net-title, #srvc-logo .srvc-logo-part .google-ads .net-title, #srvc-logo .srvc-logo-part .s-media .net-title, #srvc-logo .srvc-logo-part .seo .net-title {
+        font-size: 12px;
+        margin-left:20px;
+    }
+   
+    #srvc-logo .srvc-logo-part .net-mktg, #srvc-logo .srvc-logo-part .google-ads, #srvc-logo .srvc-logo-part .s-media, #srvc-logo .srvc-logo-part .seo {
+        margin: 0 1.3rem;
+    }
+    #gl-commm {
+        width: 100%;
+    }
+    #gl-commm .gl-commission {
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+
+    }
+    #gl-commm .gl-commission .gl-btn{
+        display:none;
+    }
+    #gl-commm .gl-commission .gl-btn h1 {
+      display: none;
+    }
+
+    #team-member .pers-1 .social-icon {
+        display: none;
+    }
+    #team-member .pers-1 .team-btn-title h5 {
+        font-family: "Barlow", sans-serif;
+        font-size: 10px;
+        line-height: 0;
+    }
+    #cust .cust-ctn-slider span i {
+        font-size: 115px;
+        color: #e6e6e6;
+    }
+    #cust .cust-ctn-slider h2 {
+        top: 42px;
+        left: 78px;
+        font-size: 40px;
+       
+    }
+    #cust .cust_slide .slick-dots li button {
+        margin-left:0;
+    }
+.invt-pricing{
+    width: 100%;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h4 {
+	font-size: 10px;
+	margin-left: -5px;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-list .amount {
+	font-size: 2.8em;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 14px;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price::after {
+	bottom: 16rem;
+}
+#invt .invt-overlay .invt-pricing .price-btn {
+	width:60%;
+	padding: 10px;
+    margin-left: 70px;
+}
+
+#invt .invt-overlay .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h4 {
+	font-size: 10px;
+    margin-left: -5px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price .price-details .price-ctn .price-list .amount {
+	font-size: 2.75em;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 14px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price::after {
+	bottom: 14rem;
+}
+#invt .invt-overlay .invt-pricing .price-2-btn {
+    width:60%;
+	padding: 10px;
+    margin-left: 70px;
+    margin-top: 52px;
+}
+#main-blog .blog-img{
+    margin-top: 8rem;
+}
+#member-blog{
+    width: 100%;
+}
+#member-blog .blog-item1{
+    width: 100%;
+    margin-top:0;
+    padding-bottom: 13rem; 
+}
+#member-blog .blog-item1 .blog-item-ctn p {	
+	font-size: 15px;
+}
+
+#member-blog .blog-item1 .blog-item-ctn .blog-icon-btn {
+    bottom: -12rem;
+	left: 25px;
+}
+#member-blog .blog-item1 .blog-item-ctn .blog-border {
+    bottom: -10.5rem;
+}
+#footer .part-4 .social-icon ul li {
+	width: 30px;
+	height: 30px;
+    padding: 15px;
+}
+#footer .part-4 .social-icon ul li a i {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+	color: #191919;
+}
+#footer-text .copy-border::before {
+	left: 10.5rem;
+}
+#member-blog .blog-item1 .blog-btn .blog-btn-title a {
+ display: none;
+}
+/* === HEADER PAGE RWD ENDS ===*/
+/* === ABOUT PAGE RWD START ===*/
+
+#about-mission::before {
+    display: none;
+}
+#about-mission .mission-quotation p {
+	font-size: 20px;
+}
+#about-blog .blog3 .client::before {
+	width: 15rem;	
+}
+#about-blog .blog3 .result::before {
+	width: 15rem;
+
+}
+#about-blog .blog3 .result::after {
+	width: 1.2rem;
+}
+#about-blog .blog3 .project::before {
+	width: 13rem;
+}
+#about-blog .blog3 .project::after {
+	width: 2rem;
+    right:-1rem;
+
+}
+#about-blog .blog3 .solving::before {
+	width: 13rem;
+}
+#about-blog .blog3 .solving::after {
+	width: 2rem;
+    right: -1rem;
+}
+#about-blog .blog3 .teamwork::before {
+	width:15rem;
+}
+#about-get-in-touch::before {
+  display:none;
+}
+#about-get-in-touch .conatct-us-info .address::before {
+	left: 5px;	
+}
+#about-get-in-touch .conatct-us-info .address img {
+	left: 26px;
+}
+#about-get-in-touch .conatct-us-info .address p {
+	font-size: 11px;
+}
+#google-map .contact-from .contact-btn {
+	width: 50%;
+    height: 30%;
+	margin: 20px 0 0 179px;
+}
+
+/* === ABOUT PAGE RWD ENDS ===*/
+/* === SERVICE PAGE RWD START ===*/
+
+#srvc-advtg .srvc-member .srvc-btn .srvc-btn-title a {
+  display: none;
+}
+#srvc-advtg .srvc-member .srvc-item-btn h2 {
+	font-size: 15px;
+}
+#srvc-advtg .srvc-member .srvc-item-btn p {
+	font-size: 14px;
+}
+#srvc-advtg .srvc-member .srvc-item-btn .srvc-border {
+    display: none;
+}
+#srvc-invt .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h4 {
+	font-size: 10px;
+    margin-left:-41px;
+}
+#srvc-invt .invt-pricing .invt-1st-price .price-details .price-ctn .price-list .amount {
+	font-size: 3.5rem;
+}
+#srvc-invt .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 14px;
+	margin-left: 0;
+}
+#srvc-invt .invt-pricing .invt-1st-price::after {
+	bottom: 17rem;
+}
+#srvc-invt .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h4 {
+	font-size: 10px;
+    margin-left:-41px;
+}
+#srvc-invt .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 14px;
+    margin-left: 0;
+}
+#srvc-invt .invt-pricing .invt-2nd-price::after {
+	bottom: 15.8rem;
+	left: 19px;
+	height: 1px;
+}
+#srvc-invt .invt-pricing .price-btn {
+	width: 80%;
+	padding: 15px;
+	margin: 25px 0 0 20px;
+}
+#srvc-invt .invt-pricing .price-2-btn {
+	width: 80%;
+	padding: 15px;
+	margin: 42px 0 0 20px;
+}
+
+/* === SERVICE PAGE RWD ENDS ===*/
+/* === OUR_SERVICE SUB MENU PAGE RWD START ===*/
+#expert .srvc-table {
+    top:0;
+}
+#faq .faq-part1 .click, #faq .faq-part2 .click, #faq .faq-part3 .click, #faq .faq-part4 .click {
+    top: 34px;
+	right: 11px;
+}
+
+/* === OUR_SERVICE SUB MENU PAGE RWD ENDS ===*/
+/* === SINGLE_SERVICE SUB MENU PAGE RWD START ===*/
+#srvc-blog .blog-img {
+     height: 45vh;
+}
+#about-blog .blog1 .text2 {
+ display: none;
+}
+.circular{
+  width:100%;
+}
+.circular::before {
+   display: none;
+}
+.circular .progress-circle1 .clock img {
+	width: 45%;
+}
+.progress-circle2 .calculator img {
+	width: 45%;
+}
+.progress-circle3 .calculator img {
+	width: 45%;
+}
+.progress-circle4 .calculator img {
+	width: 45%;
+}
+/* === SINGLE_SERVICE SUB MENU PAGE RWD ENDS ===*/
+/* === SOLUTIONS_SERVICE SUB MENU PAGE RWD START===*/
+
+#solution::before {
+    bottom: -81px;
+    left: 40px;
+	width: 40rem;
+}
+#real-solution .title::before {
+	left: 30rem;
+}
+#real-solution .title::after {
+	right: 29.5em;
+}
+/* === SOLUTIONS_SERVICE SUB MENU PAGE RWD ENDS ===*/
+/* === OUR_PROCESS SUB MENU PAGE RWD START ===*/
+#bus .bus-ctn .social-icon2 .social-btn .find-btn {
+    position: relative;
+	width: 50%;
+    padding: 0;
+}
+#bus .bus-ctn .social-icon2 .social-btn .find-btn a {
+    position: absolute;
+    top: 17px;
+    left:5px;
+}
+#bus .bus-ctn .social-icon2 .social-btn .srvc-btn {
+	width: 50%;
+	background: #057689;
+	color: #fff;
+	padding: 15px;
+	margin: 0 10px;
+	transition: all 0.4s;
+}
+
+/* === OUR_PROCESS SUB MENU PAGE RWD ENDS ===*/
+/* === INVESTMENT  PAGE RWD START ===*/
+#invest-bnr .invest-headline .invest-btn-item .team-btn {
+	width: 20%;
+    height: 20%;
+}
+#invest-bnr .invest-headline .invest-btn-item .youtube-btn {
+	width: 20%;
+    height: 20%;
+}
+#count-area .count1 .count-icon {
+    margin-left: 44px;
+}
+
+/* === INVESTMENT  PAGE RWD ENDS ===*/
+/* === BLOG  PAGE RWD START ===*/
+#blog-page .blog-heading span {
+	left: 10rem;
+}
+#blog-section .left-blog-img::before {
+	bottom: -11rem;
+}
+#blog-section .category1::after {
+	width: 11rem;
+}
+#blog-section .category2::after {
+	width: 11rem;
+}
+#blog-section .category3::after {
+	width: 11rem;
+}
+#blog2-section .category1::after {
+	width: 11rem;
+}
+
+#blog3-section .blog3-left-img .blog3-img-overlay .quote-right {
+	top: 1rem;
+	left: 12rem;
+	font-size: 95px;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay h2 {
+	font-size: 24px;
+	margin-top: 9rem;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border::before {
+	top: -15px;
+}
+
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border {
+    margin-top: 6px;
+}
+/* === BLOG  PAGE RWD ENDS ===*/
+/* === CONTACT PAGE RWD START ===*/
+#contact-get-in-touch::before {
+	width: 40rem;
+	bottom: 13px;
+	left: 63px;
+}
+#contact-get-in-touch .conatct-us-info .address::before {
+	left: 3px;
+	width: 90px;
+	height: 90px;
+
+}
+#contact-get-in-touch .conatct-us-info .address img {
+	top: 20px;
+	left: 25px;
+}
+#contact-get-in-touch .conatct-us-info .address p {
+font-size: 11px;
+}
+/* === CONTACT PAGE RWD START ===*/
+
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media(min-width: 992px) and (max-width: 1199.98px){
+/* === HEADER PAGE RWD START ===*/ 
+#hero{
+    width:100%;
+}
+#hero .logo{
+    width:100%;
+    margin-left:0;
+}
+  #hero .main_nav ul li{
+    margin-left: -5px;
+  }
+  #hero .header_btn ul li:first-child a{
+    left: 20px;
+  }
+  #hero .header_btn ul li:last-child a{
+    left: 20px;
+  }
+
+/* === HEADER PAGE RWD ENDS ===*/ 
+/* === BANNER PAGE RWD ENDS ===*/ 
+.bnr{
+    width: 100%;  
+}
+.bnr .bnr-ctn .link::after {
+	background: #00aaef;
+	margin-top: -10px;
+	margin-left: 16%;
+
+}
+/* === BANNER PAGE RWD ENDS ===*/
+/* === SERVICE LOGO PAGE RWD START ===*/
+#srvc-logo .srvc-btn .srvc-logo-btn {
+	margin-left: 10rem;
+
+}
+#srvc-logo .srvc-logo-part .net-mktg .net-title, #srvc-logo .srvc-logo-part .google-ads .net-title, #srvc-logo .srvc-logo-part .s-media .net-title, #srvc-logo .srvc-logo-part .seo .net-title {
+	font-size: 15px;
+}
+/* === SERVICE LOGO PAGE RWD ENDS ===*/
+/* === GLOBAL COMMUNITY CSS START ===*/
+#gl-commm .gl-commission{
+	/* width: 124%; */
+    width: 100%;
+	height: 145.5%;
+}
+#gl-commm .gl-commission .gl-btn{
+    position: relative;
+}
+#gl-commm .gl-commission .gl-btn h1 {
+    position: absolute;
+    bottom: 4rem;
+    left: -15rem;
+	font-size: 20px;
+	margin: 0;
+}
+#gl-commm .gl-commission .gl-btn .gl-btn-info ul{
+    margin-left: -9rem;
+    width: 12rem;
+}
+#gl-commm .gl-commission .gl-btn .gl-btn-info ul li a {
+    width: 150px;
+    bottom: -14.9rem;
+    left:-8rem;
+    padding: 12px 30px; 
+}
+/* === GLOBAL COMMUNITY CSS ENDS ===*/
+/* ===  TEAM PERSON CSS START ===*/
+#team-member .pers-1 .social-icon {
+   background: none;
+}
+#team-member .pers-1 .social-icon ul{
+    width: 110%;
+    left: -2.5rem;
+    background: #fff;
+    margin-top: -2rem;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+/* ===  TEAM PERSON CSS ENDS ===*/
+/* ===  INVESTMENT CSS START ===*/
+#invt .invt-overlay .invt-pricing .invt-1st-price::after {
+    bottom: 11rem; 
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h3 {
+    font-size: 20px;
+}
+#invt .invt-overlay .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h4 {
+    font-size: 13px;
+}
+
+#invt .invt-overlay .invt-pricing .price-btn {
+    width: 50%;
+    margin: 25px 0 0 30px;
+}
+#invt .invt-overlay .invt-pricing .price-2-btn {
+	width: 50%;
+	margin: 25px 0 0 30px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h3 {
+	font-size: 20px;
+}
+#invt .invt-overlay .invt-pricing .invt-2nd-price::after {
+	bottom: 12rem;
+	height: 1px;
+	background: #f6c60d;
+
+}
+
+/* ===  INVESTMENT CSS ENDS ===*/
+/* === BLOG HTML CSS START ===*/
+#member-blog .blog-item1 .blog-btn .blog-btn-title a {
+    top: 13rem;
+    width: 40%;
+}
+#member-blog .blog-item1 .blog-item-ctn .blog-border {
+	bottom:0;
+}
+/* === BLOG HTML CSS ENDS ===*/
+/* === HOME PAGE RWD ENDS ===*/
+/* === ABOUT PAGE RWD START ===*/
+#about-mission::before {
+    display: none;
+}
+#about-blog .blog3 .client::before {
+	width: 16rem;
+	background: #e49f37;
+}
+#about-blog .blog3 .client::after {
+	right: 1rem;
+	width: 1.7rem;
+}
+#about-blog .blog3 .result::before{
+    width: 17rem;
+}
+#about-blog .blog3 .result::after {
+	right: 1rem;
+	width: 4rem;
+}
+#about-blog .blog3 .project::before {
+	left: 0;
+	width: 15rem;
+}
+#about-blog .blog3 .project::after {
+	right: 1rem;
+	width: 5rem;
+}
+#about-blog .blog3 .solving::before {
+	width: 17rem;
+}
+#about-blog .blog3 .solving::after {
+	width: 5rem;
+    right: 1rem;
+}
+#about-blog .blog3 .teamwork::before {
+	width: 16rem;
+}
+#about-blog .blog3 .teamwork::after {
+	right: 1rem;
+	width: 2rem;
+}
+#about-get-in-touch .conatct-us-info .address p {
+	font-size: 12px;
+}
+#about-get-in-touch::before {
+	display: none;
+}
+#google-map .contact-from .contact-btn {
+	margin: 20px 0 0 130px;
+	
+}
+
+/* === ABOUT PAGE RWD ENDS ===*/
+/* === SERVICE PAGE RWD START ===*/
+#srvc-advtg .srvc-member .srvc-btn .srvc-btn-title a {
+	top: 8rem;
+    width: 45%;
+}
+#srvc-advtg .srvc-member .srvc-item-btn h2 {
+    font-size: 22px;
+}
+#srvc-advtg .srvc-member .srvc-item-btn .srvc-border {
+    bottom: -141px;
+}
+
+#srvc-advtg .srvc-member .srvc-item-btn .srvc-icon-btn {
+ bottom: -170px;
+ left: 25px;
+}
+
+#srvc-invt .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h3 {
+    font-size: 20px;
+}
+
+#srvc-invt .invt-pricing .invt-1st-price .price-details .price-ctn .price-subtitle h4 {
+    font-size: 12px;
+}
+#srvc-invt .invt-pricing .invt-1st-price::before {
+    bottom:25px;
+}
+#srvc-invt .invt-pricing .invt-1st-price::after {
+	bottom: 12rem;
+}
+#srvc-invt .invt-pricing .price-btn {
+    width: 50%;
+    margin: 25px 0 0 30px;
+}
+#srvc-invt .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h4 {
+    font-size: 12px;
+}
+#srvc-invt .invt-pricing .invt-2nd-price .price-details .price-ctn .price-subtitle h3 {
+    font-size: 20px;
+}
+#srvc-invt .invt-pricing .invt-2nd-price::after {
+	bottom: 12rem;
+}
+#srvc-invt .invt-pricing .price-2-btn {
+	width: 50%;
+    margin: 25px 0 0 30px;
+}
+/* === SERVICE PAGE RWD ENDS ===*/
+/* === SUB MENU OUR_SRVC PAGE RWD START ===*/
+#expl-bus .right-img {
+    margin: 5rem 0 0 4rem;
+    width:80%;
+    height:80%;
+}
+#expert .srvc-table {
+	position: relative;
+	top: -54px;
+	left: 0;
+}
+/* === SUB MENU OUR_SRVC PAGE RWD ENDS ===*/
+/* === SUB MENU SINGLE_SRVC PAGE RWD START ===*/
+.circular::before {
+  display: none;
+}
+#solution::before {
+  display: none;
+}
+#real-solution .title::before {
+	left: 18rem;
+	background: #fff;
+}
+#real-solution .title::after {
+    right: 17.5rem;
+	background: #d1dbd1;
+}
+/* === SUB MENU SINGLE_SRVC PAGE RWD ENDS ===*/
+/* === SUB MENU OUR PROCESS PAGE RWD START ===*/
+#bus .bus-ctn .social-icon2 .social-btn .find-btn {
+     width:35%;
+}
+#bus .bus-ctn .social-icon2 .social-btn .srvc-btn {
+	width: 35%;
+}
+/* === SUB MENU OUR PROCESS PAGE RWD ENDS ===*/
+/* === BLOG PAGE RWD START ===*/
+#blog-page .blog-heading span {
+	left: 19rem;
+}
+#blog-section .category1::after {
+    width:14rem;
+}
+#blog-section .category2::after {
+    width:14rem;  
+}
+#blog-section .category3::after {
+    width:14rem;  
+}
+#blog2-section .category1::after {
+    width:14rem;  
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .quote-right {
+	left:17rem;
+}
+#blog3-section .blog3-left-img .blog3-img-overlay .blog3-sm-border::before {
+	left: 17rem;
+}
+
+/* === BLOG PAGE RWD ENDS ===*/
+/* === CONTACT PAGE RWD START ===*/
+#contact-get-in-touch .conatct-us-info .address p {
+	font-size: 13px;
+}
+#contact-get-in-touch::before {
+	display: none;
+}
+/* === CONTACT PAGE RWD ENDS ===*/
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+/* === HOME PAGE RWD START ===*/
+#hero .logo{
+    margin-left: 0;
+}
+#hero .header_btn ul li:first-child a {
+left: 4rem;
+}
+#hero .header_btn ul li:last-child a {
+left: 4rem;
+}
+#gl-commm .gl-commission {
+    width:106%;
+}
+#gl-commm .gl-commission .gl-btn .gl-btn-info ul li a {
+	right: 2rem;
+}
+#gl-commm .gl-commission .gl-btn h1 {
+	margin: 70px 35px 30px 0;
+}
+/* === HOME PAGE RWD ENDS ===*/
+/* === ABOUT PAGE RWD START ===*/
+#about-mission::before {
+ left: 2rem;
+}
+#about-get-in-touch::before {
+ left: 2rem;
+}
+/* === ABOUT PAGE RWD ENDS ===*/
+/* === SUB MENU SINGLE PAGE RWD START ===*/
+.circular::before {
+    left:2rem;
+}
+/* === SUB MENU SINGLE PAGE RWD ENDS ===*/
+/* === SUB MENU SOLUTION PAGE RWD START ===*/
+#solution::before {
+    left:2rem;
+}
+/* === SUB MENU SOLUTION PAGE RWD ENDS ===*/
+/* === CONTACT PAGE RWD START ===*/
+#contact-get-in-touch::before {
+	left:2rem;
+}
+/* === CONTACT PAGE RWD ENDS ===*/
+
+
+} 
+ 
